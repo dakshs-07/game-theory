@@ -1,21 +1,43 @@
-prisoner's dilema - visualized! if you are a fan of game theory, you would def enjoying switching between diff startegies and vrying the noise to see how the reulsts turn out and which player gets the better payoff
+Prisoner’s Dilemma – Visualized!
+if you're even slightly into game theory, this is actually fun to mess around with
+you can switch between different strategies, tweak randomness (noise), and see how everything plays out over multiple rounds
 
-you can vary:
--strategy
-- noise
-- number of rounds
+<img width="1828" height="915" alt="Screenshot 2026-05-07 202722" src="https://github.com/user-attachments/assets/92dcdf88-9b85-4e8f-a0d5-010cc9b69b29" />
 
+what you can do
+- try out different strategies
+- adjust noise (to simulate mistakes / randomness)
+- change number of rounds
+- watch how outcomes change in real time
 
+everything is visual colors show how players are behaving so you don’t have to decode raw data
 
-  and see in action how the strategies work through colors
+how it works (simple version)
+two players choose:
+cooperate
+betray
 
+their choices affect both their scores
+the “best” choice isn’t always obvious… and that’s where it gets interesting
 
-  a leaderboard at the end shows how the stratgies work in comaprison to erach other
+features
+- interactive simulator
+- visual representation (colors instead of boring numbers)
+- leaderboard at the end to compare strategies
+- quick way to understand game theory without reading a textbook
+- why this exists
 
-  # future addition:
-  - db to show global results each time it is run
-  - adding more strategies
- 
-- # what i learned
-- - how to use plain css (i suck at it ever since i started using tailwind the lover of my life)
-  - how to actually bring conepts to life - got inspo frpm veritasium video on gasme theory
+game theory sounds cool but feels confusing
+so i built something where you can just play with it and get it
+
+future additions
+global leaderboard (store results in a db)
+more strategies
+maybe custom strategies
+what i learned
+how to survive writing plain css again (tailwind i still love you)
+how to actually turn abstract concepts into something interactive
+game theory is way more interesting when you see it
+inspiration
+
+got the idea after watching a Veritasium video on game theory
